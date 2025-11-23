@@ -33,7 +33,7 @@ git add .
 git commit -m "Initial commit: Text Extractor com OCR por IA"
 
 # Adicionar remote (substitua USER e REPO pelo seu usuário e nome do repositório)
-git remote add origin https://github.com/USER/text-extractor.git
+git remote add origin https://github.com/DanielDss030225/text-extractor.git
 
 # Fazer push para main branch
 git branch -M main
@@ -71,18 +71,30 @@ git push -u origin main
 No dashboard do Render, vá para o serviço web e adicione as seguintes variáveis de ambiente:
 
 ```
-NODE_ENV=production
-DATABASE_URL=<copie da página do banco de dados PostgreSQL>
-JWT_SECRET=<gere uma string aleatória segura>
+NODE_ENV= production
+
+DATABASE_URL= postgres://text_extractor_user:H0puwLrKiI4qyCJVQsQTDXr1JTlTOIpx@dpg-d4hntdkhg0os738ijtag-a.oregon-postgres.render.com:5432/text_extractor
+
+JWT_SECRET= 6fa2c1b09c2145c6a884b88ef2a99c83
+
 VITE_APP_ID=<seu app ID Manus>
+
 OAUTH_SERVER_URL=https://api.manus.im
+
 VITE_OAUTH_PORTAL_URL=<seu portal URL Manus>
-OWNER_OPEN_ID=<seu open ID Manus>
-OWNER_NAME=<seu nome>
+
+OWNER_OPEN_ID= 310519663107918407
+
+OWNER_NAME= DANIEL SILVA
+
 BUILT_IN_FORGE_API_URL=<URL da API Manus>
-BUILT_IN_FORGE_API_KEY=<sua chave de API Manus>
+
+BUILT_IN_FORGE_API_KEY= sk-YO0A0FUnXlV3wZrGcly2k1yf6FtaIXXbYV5nK793VVC0KxxdTkoDKgelHIl2KgJ62Xc768GbnMJmFa8DYfBvd3cBkgc-
+
 VITE_FRONTEND_FORGE_API_URL=<URL da API Manus>
-VITE_FRONTEND_FORGE_API_KEY=<sua chave de API Manus>
+
+VITE_FRONTEND_FORGE_API_KEY=sk-YO0A0FUnXlV3wZrGcly2k1yf6FtaIXXbYV5nK793VVC0KxxdTkoDKgelHIl2KgJ62Xc768GbnMJmFa8DYfBvd3cBkgc-
+
 VITE_APP_TITLE=Text Extractor
 VITE_ANALYTICS_ENDPOINT=<seu endpoint de analytics>
 VITE_ANALYTICS_WEBSITE_ID=<seu website ID>
