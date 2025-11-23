@@ -1,0 +1,1 @@
+ALTER TABLE `extractions` DROP COLUMN `originalContent`;

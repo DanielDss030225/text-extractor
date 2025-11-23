@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1763747002420,
+      "tag": "0000_striped_the_captain",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1763747032830,
+      "tag": "0001_orange_grim_reaper",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1763747448270,
+      "tag": "0002_silent_leech",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1763932911426,
+      "tag": "0003_rich_trish_tilby",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `extractions` MODIFY COLUMN `originalContent` LONGTEXT;
